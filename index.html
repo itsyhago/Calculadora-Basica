@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>calculadora</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel='shortcut icon' type='image/x-icon' href='calculadora.png' />
+  <script src="Script.js"> </script>
+</head>
+
+<body>
+  <main class="Fundo">
+    <div class="calculadora">
+      <h1>Calculadora</h1>
+      <div class="Numeros">
+        <input placeholder="numero 1" autocomplete="off" style="background: white;" type="number" id="numero 1" ></input>   
+        <p></p><input placeholder="numero 2" autocomplete="off"  style="background: white;" type="number"  id="numero 2"> </input>
+        <p id="resultado">resultado</p>
+      </div>
+      
+      <table>
+        <tr id="oi">
+          <td><button class="botão" onclick ="aumenta()"  >+</button></td>
+          <td><button class="botão" onclick="diminuir()">-</button></td>
+        </tr>
+        <tr>
+          <td><button class="botão" onclick="multiplicação()">x</button></td>
+          <td><button class="botão" onclick="dividr()">/</button></td>
+        </tr>
+      </table>
+    </div>
+      
+  </main>
+  <footer>
+    <h2 >Created by: Yhago Pessoa, Kauã Pedro, Beatriz Mendes </h2> 
+  </footer>
+
+</body>
+
+
+
+</html>
