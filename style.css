@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
 }
+html, body{
+    height: 100%;
+}
   
-.Fundo{
-display: flex;
-background-image: linear-gradient(45deg,black,crimson) ;
-height: 100vh;
-color: white;
+main{
+    height: 94.4%;
+    display: flex;
+    background-image: linear-gradient(45deg,black,crimson) ;
+    color: white;
 
 
 }
