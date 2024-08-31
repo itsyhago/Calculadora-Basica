@@ -18,6 +18,7 @@ main{
     color: white;
 }
 h1{
+    font-family: Arial, Helvetica, sans-serif;
     margin: -5px 0px 5px 0px;
     font-size: 2em;
     transition: 1s;
