@@ -138,16 +138,16 @@ input[type=number]::-webkit-inner-spin-button {
 
 @media screen and (max-width: 300px) {
     .calculadora{
-        width: 150px;
+        width: 200px;
         transition: 1s;
     }
     h1{
-        font-size: 1.3em ;
+        font-size: 1.6em ;
         
     }
     .botão{
-        width: 35px;
-        height: 35px;
+        width: 37px;
+        height: 37px;
     }
     
 }
